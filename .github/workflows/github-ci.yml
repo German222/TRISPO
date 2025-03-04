@@ -1,0 +1,8 @@
+name: CI Pipeline
+on: workflow_dispatch
+jobs:
+  print_hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print hello
+        run: echo "Hello world!"; echo "world Hello!"
