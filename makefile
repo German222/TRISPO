@@ -28,7 +28,7 @@ CFLAGS = -Wall -Wextra -std=c99 -O2
 
 
 # Имя исполняемого файла
-CURDIR/$(TARGET) = bubblesort
+$(CURDIR)/$(TARGET) = bubblesort
 
 # Исходный файл
 SRC = bubblesort.c
