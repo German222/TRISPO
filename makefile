@@ -35,7 +35,7 @@ SRC = bubblesort.c
 all: $(TARGET)
 
 $(TARGET): $(SRC)
-	$(CC) $(CFLAGS) -o $(CURDIR)/$(TARGET) $(SRC)
+	$(CC) $(CFLAGS) -o $(TARGET) $(SRC)
 
 # Очистка (удаление скомпилированного файла)
 clean:
