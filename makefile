@@ -25,10 +25,8 @@ CC = gcc
 # Флаги компиляции
 CFLAGS = -Wall -Wextra -std=c99 -O2
 
-
-
 # Имя исполняемого файла
-$(CURDIR)/$(TARGET) = bubblesort
+TARGET = bubblesort
 
 # Исходный файл
 SRC = bubblesort.c
